@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="111111"
+        android:id="@+id/alert_tv_info"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快递单号:"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alert_ed_queue_num"
+            android:singleLine="true"
+            android:background="@android:drawable/edit_text"
+            android:hint="扫描或输入快递单号"/>
+</LinearLayout>

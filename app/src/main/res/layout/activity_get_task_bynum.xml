@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:visibility="gone"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_gone"
+
+    tools:context="rcominfo.com.ejejyxt.activities.GetTaskBynumActivity">
+
+    <HorizontalScrollView
+        android:layoutDirection="ltr"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:id="@+id/gvTask"
+            android:scrollbars="none"
+            android:background="@android:drawable/edit_text"></GridView>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:text="单号:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:singleLine="false"
+            android:background="@android:drawable/edit_text" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_state_login"
+            android:text="终止拣货"
+            android:textColor="@android:color/white" />
+
+
+
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="会员名称"
+            android:layout_toEndOf="@+id/btn_finish_task"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/goodsType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textUserName"
+            android:layout_alignLeft="@+id/textUserName"
+            android:text="类型"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/jsNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goodsType"
+            android:layout_alignLeft="@+id/goodsType"
+            android:text="件数"
+            tools:ignore="UnknownId"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/jsNum"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/jsNum"
+            android:text="未拣货数"
+            android:id="@+id/wjhNum"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+        android:id="@+id/orderGoodsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wjhNum"
+        android:layout_alignLeft="@+id/jsNum"
+        android:text="订单货物："
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/orderGoodsText"
+            android:layout_alignTop="@+id/orderGoodsText"
+            android:singleLine="false"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:text="货物名"
+            android:id="@+id/OrderGoods"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderGoodsText"
+            android:layout_alignLeft="@+id/orderGoodsText"
+            android:singleLine="false"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:text="承运商"
+            android:id="@+id/tv_Carrier"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_Carrier"
+            android:layout_alignLeft="@+id/tv_Carrier"
+            android:singleLine="false"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:text="备注"
+            android:id="@+id/tv_Rem"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

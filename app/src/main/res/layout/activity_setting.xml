@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SettingActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_wifi"
+        android:background="@drawable/btn_state_setting"
+        android:text="wifi设置"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_getNewVersion"
+        android:background="@drawable/btn_state_setting"
+        android:text="版本更新"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_state_setting"
+        android:layout_marginTop="10dp"
+        android:text="服务器设置"
+        android:id="@+id/btn_server_select"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_state_setting"
+        android:layout_marginTop="10dp"
+        android:text="程序员测试"
+        android:id="@+id/test"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_state_red"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp"
+    android:text="退出系统"
+    android:id="@+id/btn_exit"
+    android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>

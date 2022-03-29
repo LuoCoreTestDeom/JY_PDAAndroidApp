@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\9c7fe3cf4135fa3a5e38db548c7e5f6e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\bc63d81be4434915586c96fe944612e0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\8b2f77895fcce1954bf649fa0cbbafb4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\eventbus-2.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\fd791854252ccf6f89fc2b3d8bd1f2e8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\jpush-android_v3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8e0e2966df7e5f6062849be632a5c7d62d3a38fa">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\bf8b70e973272135657d9f6b51283a38\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\android-async-http-1.4.8.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\jcore-android_v1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c49fbb60c08a0d71decd2f092da4677fb7872f04">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\a3f0c2d4c244d9af6450cf3e247863d8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\3dd54c7789b99aec8cb3c30f4e16e6b7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\74f7c525a42443e65f4eb956daf9f1c9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\httpcore-4.0-alpha5.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="28e2aaaca5231e2a42bbe2bf6843acd33ec033de">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidsourceCode\TMJY\app\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luo\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\ba2abb977038f59119a6df8a160f0bcc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="F:\AndroidsourceCode\TMJY\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/rl_all"
+    tools:context="rcominfo.com.ejejyxt.activities.CheckActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/two"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="子单号:"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/ed_son_code"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:imeOptions="actionNone"
+            android:background="@android:drawable/edit_text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/two"
+        android:id="@+id/five"
+        android:weightSum="4"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="已扫描数量:"
+            android:textSize="15sp"/>
+        <rcominfo.com.ejejyxt.Utils.Marqueetextview
+            android:id="@+id/good_num"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="已扫描重量:"
+            android:textSize="15sp"/>
+        <rcominfo.com.ejejyxt.Utils.Marqueetextview
+            android:id="@+id/weight_temp"
+            android:layout_width="0dp"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/five"
+        android:id="@+id/four"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="航班时效:"
+            android:id="@+id/timeBarName"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tvPrintCarrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="承运商" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:layout_below="@id/four"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rl_list">
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:id="@+id/grView">
+        </GridView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已扫描:0条"
+            android:textSize="25sp"
+            android:layout_below="@id/grView"
+            android:textStyle="bold"
+            android:id="@+id/tv_count"
+            android:textColor="@android:color/holo_red_light"/>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/tv_count"
+            android:id="@+id/RelPrint">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="打印"
+                android:id="@+id/post_package"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_state_green"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvPrintAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelPrint"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="收货地址" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rcominfo.com.ejejyxt.activities.TestActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_test"
+        android:textSize="20sp"
+        android:imeOptions="actionNone"
+        android:singleLine="true"
+        android:background="@android:drawable/edit_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_test"
+        android:textSize="30sp"
+        android:id="@+id/tv_test_result"
+        android:text="扫描结果"/>
+
+</RelativeLayout>

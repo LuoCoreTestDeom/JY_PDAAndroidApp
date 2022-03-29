@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:weightSum="4">
+    
+    <EditText 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_enter_sp"
+        android:layout_weight="3"
+        android:layout_marginLeft="5dp"
+        android:hint="服务器IP"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+       />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+    <EditText 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_port_sp"
+        android:layout_weight="1"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_marginRight="5dp"
+        android:hint="端口"
+       />
+    
+
+</LinearLayout>
